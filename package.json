@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-server": "node ./server/index.js",
     "start-client": "cd client && npm start",
-    "dev": "concurrently --names \"SERVER,CLIENT\" -c \"bgGreen.bold,bgCyan.bold\" --kill-others-on-fail \"npm run start-server\" \"npm run start-client\""
+    "dev": "concurrently --names \"SERVER,CLIENT\" -c \"bgGreen.bold,bgCyan.bold\" --kill-others-on-fail \"npm run start-server\" \"npm run start-client\"",
+    "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
